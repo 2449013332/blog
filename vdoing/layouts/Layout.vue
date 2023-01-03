@@ -121,7 +121,7 @@ export default {
       hideNavbar: false,
       isSidebarOpen: true,
       showSidebar: false,
-      themeMode: 'auto',
+      themeMode: 'light',
       showWindowLB: true,
       showWindowRB: true
     }
@@ -203,6 +203,7 @@ export default {
           'have-body-img': this.$themeConfig.bodyBgImg,
           'only-sidebarItem': this.sidebarItems.length === 1 && this.sidebarItems[0].type === 'page', // 左侧边栏只有一项时
         },
+        // 'theme-mode-' + this.themeMode,
         userPageClass
       ]
     }
@@ -216,11 +217,7 @@ export default {
   beforeMount() {
     this.isSidebarOpenOfclientWidth()
     const mode = storage.get('mode') // 不放在created是因为vuepress不能在created访问浏览器api，如window
-    const { defaultMode } = this.$themeConfig
-
-    if (defaultMode && defaultMode !== 'auto' && !mode ) {
-      this.themeMode = defaultMode
-    } else if(!mode || mode === 'auto' || defaultMode === 'auto') { // 当未切换过模式，或模式处于'跟随系统'时
+    if (!mode || mode === 'auto') { // 当未切换过模式，或模式处于'跟随系统'时
       this._autoMode()
     } else {
       this.themeMode = mode
@@ -265,6 +262,7 @@ export default {
         setTimeout(() => { t = p }, 0)
       }
     }, 300))
+
   },
   watch: {
     isSidebarOpen() {
@@ -282,9 +280,7 @@ export default {
       return htmlModules ? htmlModules[module] : ''
     },
     setBodyClass() {
-      let { pageStyle = 'card', bodyBgImg } = this.$themeConfig
-      if (pageStyle !== 'card' && pageStyle !== 'line' || bodyBgImg) { pageStyle = 'card' }
-      document.body.className = `theme-mode-${this.themeMode} theme-style-${pageStyle}`
+      document.body.className = 'theme-mode-' + this.themeMode
     },
     getScrollTop() {
       return window.pageYOffset

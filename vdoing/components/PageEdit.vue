@@ -107,19 +107,6 @@ export default {
           + path
         )
       }
-      
-      // https://gitee.com/-/ide/project/xxx/xxx/edit/master/-/xxxx
-      const gitee = /gitee.com/
-      if (gitee.test(docsRepo)) {
-        const base = docsRepo
-        return (
-            base.replace(gitee, 'gitee.com/-/ide/project')
-            + `/edit`
-            + `/${docsBranch}/-/`
-            + (docsDir ? docsDir.replace(endingSlashRE, '') + '/' : '')
-            + path
-        )
-      }
 
       const base = outboundRE.test(docsRepo)
         ? docsRepo

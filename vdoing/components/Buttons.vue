@@ -56,7 +56,7 @@ export default {
       scrollTop: null,
       showCommentBut: false,
       commentTop: null,
-      currentMode: '',
+      currentMode: null,
       showModeBox: false,
       modeList: [
         {
@@ -89,7 +89,8 @@ export default {
     }
   },
   mounted () {
-    this.currentMode = storage.get('mode') ||  this.$themeConfig.defaultMode ||'auto'
+    this.currentMode = storage.get('mode') || 'auto'
+
     this.scrollTop = this.getScrollTop()
     window.addEventListener('scroll', debounce(() => {
       this.scrollTop = this.getScrollTop()

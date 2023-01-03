@@ -165,15 +165,12 @@ export default {
 
 <style lang='stylus'>
 .post-list
-  margin-bottom 3rem
+  margin-bottom 4rem
   .post
     position relative
     padding 1rem 1.5rem
-    margin-bottom 0.8rem
+    margin-bottom 0.9rem
     transition all 0.3s
-    // border-bottom 1px solid var(--borderColor)
-    &:last-child
-      border-bottom none
     &.post-leave-active
       display none
     &.post-enter
@@ -246,15 +243,4 @@ export default {
           float right
           font-size 0.8rem
           margin 0.1rem 0 0 0.2rem
-.theme-style-line
-  .post-list
-    border 1px solid var(--borderColor)
-    border-bottom none
-    border-radius 5px
-    overflow hidden
-    .post
-      margin-bottom 0
-      border none
-      border-bottom 1px solid var(--borderColor)
-      border-radius 0
 </style>

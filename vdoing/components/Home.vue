@@ -116,9 +116,6 @@
           class="card-box"
           v-if="homeData.postList === 'simple'"
           :length="homeData.simplePostListLength || 10"
-          :moreArticle="
-            $themeConfig.updateBar && $themeConfig.updateBar.moreArticle
-          "
         />
 
         <!-- 详情版文章列表 -->
@@ -227,7 +224,7 @@ export default {
         } else {
           return 'background: var(--mainBg);color: var(--textColor)'
         }
-      } else if (bannerBg.indexOf('background:') > -1) { // 自定义背景样式
+      } else if (bannerBg.indexOf('background') > -1) { // 自定义背景样式
         return bannerBg
       } else if (bannerBg.indexOf('.') > -1) { // 大图
         return `background: url(${this.$withBase(bannerBg)}) center center / cover no-repeat`
@@ -472,13 +469,12 @@ export default {
     margin-top 2rem
     .main-left
       .card-box
-        margin-bottom 2rem
+        margin-bottom 0.9rem
       .pagination
-        margin-bottom 3rem
+        margin-bottom 4rem
       .theme-vdoing-content
         padding 0 2rem
         overflow hidden
-        border none
         &>:first-child
           padding-top 2rem
         &>:last-child
@@ -538,8 +534,4 @@ export default {
       .feature
         h2
           font-size 1.25rem
-.theme-style-line
-  .main-wrapper
-    @media (max-width 719px)
-      margin-top -1px
 </style>

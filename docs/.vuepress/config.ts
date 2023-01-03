@@ -17,7 +17,7 @@ export default ({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "夏天夏",
+      title: "阿李李李",
       description: "web前端技术博客,专注web前端学习与总结。JavaScript,js,ES6,TypeScript,vue,React,python,css3,html5,Node,git,github等技术文章。",
     },
   },
@@ -99,7 +99,7 @@ export default ({
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: "/img/a.jpg", // 导航栏logo
-    repo: "2449013332/notes", // 导航栏右侧生成Github链接
+    repo: "2449013332/blog", // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
     docsDir: "docs", // 编辑的文件夹
@@ -139,15 +139,15 @@ export default ({
 
     // 文章默认的作者信息，(可在md文件中单独配置此信息) string | {name: string, link?: string}
     author: {
-      name: "夏天夏", // 必需
+      name: "阿李李李", // 必需
       link: "https://github.com/2449013332", // 可选的
     },
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
       avatar: "/img/a.jpg",
-      name: "夏天夏",
-      slogan: "总想做点什么，但是很懒",
+      name: "阿李李李",
+      slogan: "编程是一门手艺活",
     },
 
     // 社交图标 (显示于博主信息栏和页脚栏。内置图标：https://doc.xugaoyi.com/pages/a20ce8/#social)
@@ -157,7 +157,7 @@ export default ({
         {
           iconClass: "icon-youjian",
           title: "发邮件",
-          link: "mailto:919006380@qq.com",
+          link: "mailto:2449013332@qq.com",
         },
         {
           iconClass: "icon-github",
@@ -167,7 +167,7 @@ export default ({
         {
           iconClass: "icon-juejin",
           title: "掘金",
-          link: "https://juejin.cn/user/3825956194361406/posts",
+          link: "https://juejin.cn/user/9255662658328",
         },
       ],
     },
@@ -175,13 +175,13 @@ export default ({
     // 页脚信息
     footer: {
       createYear: 2019, // 博客创建年份
-      copyrightInfo: '夏天夏 | <a href="https://github.com/2449013332/notes/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
+      copyrightInfo: '阿李李李 | <a href="https://github.com/2449013332/notes/blob/master/LICENSE" target="_blank">MIT License</a>', // 博客版权信息，支持a标签或换行标签</br>
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
     extendFrontmatter: {
       author: {
-        name: "夏天夏",
+        name: "阿李李李",
         link: "https://github.com/2449013332",
       },
     },

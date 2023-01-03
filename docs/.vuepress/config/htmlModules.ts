@@ -29,9 +29,9 @@ const htmlModule: VdoingThemeConfig["htmlModules"] = {
       font-weight: bold;
       margin: 0 0 8px 0;
     ">联系我</p>
-   <div> 欢迎一起交流学习，加我微信：zwei919</div>
+   <div> 欢迎一起交流学习，加我微信：li2449013332</div>
     如果觉得我的文章对你有帮助，可以
-     <a href="https://github.com/2449013332/buy-me-a-coffee" target="_blank" >请我喝杯咖啡</a>
+     <a href="https://github.com/2449013332/blog" target="_blank" >给我一个Star⭐</a>
     </p>
     </div>`,
   // `<!-- 纵向自适应 -->

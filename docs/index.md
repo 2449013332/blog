@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 夏天夏的博客
+heroText: 阿李李李的博客
 tagline: 编程是一门手艺活。
 pageClass: vdoing-index-class
 

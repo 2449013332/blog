@@ -14,11 +14,11 @@ echo 'weibaichao.com' > CNAME
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:qq919006380/notes.git
+  githubUrl=git@github.com:2449013332/notes.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/qq919006380/notes.git
-  git config --global user.name "qq919006380"
+  githubUrl=https://xugaoyi:${GITHUB_TOKEN}@github.com/2449013332/notes.git
+  git config --global user.name "2449013332"
   git config --global user.email "919006380@qq.com"
 fi
 git init

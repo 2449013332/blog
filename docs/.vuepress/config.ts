@@ -69,6 +69,18 @@ export default ({
             text: "技术分享",
             items: [
               { text: "小白都能看懂的闭包", link: "/pages/fa532d/" },
+              { text: "高性能网站建设指南", link: "/pages/4c78f0/" },
+              { text: "Git(高层命令)", link: "/pages/e3de8a/" },
+               { text: "杀手锏(分支)", link: "/pages/2154f2/" },
+               { text: "webpack", link: "/pages/c67ca4/" },
+               { text: "关于浏览器的回流和重绘", link: "/pages/bae48f/" },
+
+                { text: "初识Vue", link: "/pages/5ec1bf/" },
+                { text: "vue3快速上手", link: "/pages/2a3f27/" },
+                { text: "快速入门手册", link: "/pages/6a2c2e/" },
+                { text: "三天精通git", link: "/pages/1f74a8/" },
+                { text: "性能优化琐碎事", link: "/pages/44b52a/" },
+
             ],
           },
           {

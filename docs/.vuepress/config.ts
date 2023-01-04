@@ -78,7 +78,7 @@ export default ({
                 { text: "初识Vue", link: "/pages/5ec1bf/" },
                 { text: "vue3快速上手", link: "/pages/2a3f27/" },
                 { text: "快速入门手册", link: "/pages/6a2c2e/" },
-                { text: "三天精通git", link: "/pages/1f74a8/" },
+                { text: "快速精通git", link: "/pages/1f74a8/" },
                 { text: "性能优化琐碎事", link: "/pages/44b52a/" },
 
             ],
@@ -97,9 +97,8 @@ export default ({
         link: "/notes/",
         items: [
           { text: "JavaScript", link: "/pages/71e5ba/" },
-          { text: "JavaScript", link: "/pages/71e5ba/" },
-          { text: "JavaScript", link: "/pages/71e5ba/" },
-          { text: "JavaScript", link: "/pages/71e5ba/" },
+          { text: "类class", link: "/pages/f8eada/" },
+          { text: "axios", link: "/pages/2b7d61/" }
         ],
       },
       {

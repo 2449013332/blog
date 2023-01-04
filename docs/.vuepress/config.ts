@@ -97,6 +97,9 @@ export default ({
         link: "/notes/",
         items: [
           { text: "JavaScript", link: "/pages/71e5ba/" },
+          { text: "JavaScript", link: "/pages/71e5ba/" },
+          { text: "JavaScript", link: "/pages/71e5ba/" },
+          { text: "JavaScript", link: "/pages/71e5ba/" },
         ],
       },
       {

@@ -98,7 +98,8 @@ export default ({
         items: [
           { text: "JavaScript", link: "/pages/71e5ba/" },
           { text: "类class", link: "/pages/f8eada/" },
-          { text: "axios", link: "/pages/2b7d61/" }
+          { text: "axios", link: "/pages/2b7d61/" },
+          { text: "箭头函数", link: "/pages/bf9676/" }
         ],
       },
       {

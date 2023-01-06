@@ -100,7 +100,8 @@ export default ({
           { text: "类class", link: "/pages/f8eada/" },
           { text: "axios", link: "/pages/2b7d61/" },
           { text: "箭头函数", link: "/pages/bf9676/" },
-          { text: "promise", link: "/pages/7ac0dc/" }
+          { text: "promise", link: "/pages/7ac0dc/" },
+          { text: "es6遍历数组的不同方法", link: "/pages/5ebd6a/" }
         ],
       },
       {

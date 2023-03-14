@@ -98,10 +98,11 @@ export default ({
         items: [
           { text: "JavaScript", link: "/pages/71e5ba/" },
           { text: "类class", link: "/pages/f8eada/" },
-          { text: "axios", link: "/pages/2b7d61/" },
+          { text: "axios", link: "/pages/61b34e/" },
           { text: "箭头函数", link: "/pages/bf9676/" },
           { text: "promise", link: "/pages/7ac0dc/" },
-          { text: "es6遍历数组的不同方法", link: "/pages/5ebd6a/" }
+          { text: "es6遍历数组的不同方法", link: "/pages/5ebd6a/" },
+          { text: "splice的用法", link: "/pages/30e885/" }
         ],
       },
       {

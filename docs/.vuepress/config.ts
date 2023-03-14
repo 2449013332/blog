@@ -80,7 +80,7 @@ export default ({
                 { text: "快速入门手册", link: "/pages/6a2c2e/" },
                 { text: "快速精通git", link: "/pages/1f74a8/" },
                 { text: "性能优化琐碎事", link: "/pages/44b52a/" },
-                { text: "splice的用法", link: "/pages/61b34e/" },
+                { text: "splice的用法", link: "/pages/7c826c/" },
             ],
           },
           {

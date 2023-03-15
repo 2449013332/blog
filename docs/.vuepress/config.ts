@@ -80,7 +80,9 @@ export default ({
                 { text: "快速入门手册", link: "/pages/6a2c2e/" },
                 { text: "快速精通git", link: "/pages/1f74a8/" },
                 { text: "性能优化琐碎事", link: "/pages/44b52a/" },
-                { text: "splice的用法", link: "/pages/7c826c/" },
+                { text: "splice的用法", link: "/pages/c901b8/" },
+                { text: "函数的节流和防抖", link: "/pages/c34b50/" },
+                { text: "手写一个sleep函数", link: "/pages/bae27e/" },
             ],
           },
           {

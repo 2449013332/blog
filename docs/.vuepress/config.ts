@@ -71,18 +71,16 @@ export default ({
               { text: "小白都能看懂的闭包", link: "/pages/fa532d/" },
               { text: "高性能网站建设指南", link: "/pages/4c78f0/" },
               { text: "Git(高层命令)", link: "/pages/e3de8a/" },
-               { text: "杀手锏(分支)", link: "/pages/2154f2/" },
-               { text: "webpack", link: "/pages/c67ca4/" },
-               { text: "关于浏览器的回流和重绘", link: "/pages/bae48f/" },
+              { text: "杀手锏(分支)", link: "/pages/2154f2/" },
+              { text: "webpack", link: "/pages/c67ca4/" },
+              { text: "关于浏览器的回流和重绘", link: "/pages/bae48f/" },
+              { text: "初识Vue", link: "/pages/5ec1bf/" },
+              { text: "vue3快速上手", link: "/pages/2a3f27/" },
+              { text: "快速入门手册", link: "/pages/6a2c2e/" },
+              { text: "快速精通git", link: "/pages/1f74a8/" },
+              { text: "性能优化琐碎事", link: "/pages/44b52a/" },
+              { text: "vuex", link: "/pages/a36079/" },
 
-                { text: "初识Vue", link: "/pages/5ec1bf/" },
-                { text: "vue3快速上手", link: "/pages/2a3f27/" },
-                { text: "快速入门手册", link: "/pages/6a2c2e/" },
-                { text: "快速精通git", link: "/pages/1f74a8/" },
-                { text: "性能优化琐碎事", link: "/pages/44b52a/" },
-                { text: "splice的用法", link: "/pages/c901b8/" },
-                { text: "函数的节流和防抖", link: "/pages/c34b50/" },
-                { text: "手写一个sleep函数", link: "/pages/bae27e/" },
             ],
           },
           {
@@ -91,7 +89,7 @@ export default ({
               { text: "发布一个npm包", link: "/pages/c63419/" },
             ],
           },
-          
+
         ],
       },
       {
@@ -104,7 +102,9 @@ export default ({
           { text: "箭头函数", link: "/pages/bf9676/" },
           { text: "promise", link: "/pages/7ac0dc/" },
           { text: "es6遍历数组的不同方法", link: "/pages/5ebd6a/" },
-          { text: "splice的用法", link: "/pages/30e885/" }
+          { text: "splice的用法", link: "/pages/c901b8/" },
+          { text: "函数的节流和防抖", link: "/pages/c34b50/" },
+          { text: "手写一个sleep函数", link: "/pages/bae27e/" },
         ],
       },
       {

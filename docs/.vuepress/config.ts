@@ -105,7 +105,9 @@ export default ({
           { text: "splice的用法", link: "/pages/c901b8/" },
           { text: "函数的节流和防抖", link: "/pages/c34b50/" },
           { text: "手写一个sleep函数", link: "/pages/bae27e/" },
-          { text: "宏任务微任务", link: "/pages/dee2e7/" }
+          { text: "宏任务微任务", link: "/pages/dee2e7/" },
+          { text: "Object.prototype.toString.call()", link: "/pages/51fc43/" },
+         
         ],
       },
       {

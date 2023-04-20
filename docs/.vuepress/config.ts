@@ -80,6 +80,8 @@ export default ({
               { text: "快速精通git", link: "/pages/1f74a8/" },
               { text: "性能优化琐碎事", link: "/pages/44b52a/" },
               { text: "vuex", link: "/pages/a36079/" },
+              { text: "this.$set()", link: "/pages/55f5fe/" },
+              
 
             ],
           },
